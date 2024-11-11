@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Itim&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  .attribution { font-size: 20px; text-align: center; margin-top: 2rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:   hsl(30, 38%, 92%);
+}
+.big-container{
+  width:39%;
+  height: auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-overflow: clip;
+}
+img{
+  height:100%;
+  width:50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+h4,h1,p,button{
+  margin-left:4rem;
+
+}
+.contents h4{
+font-size: 2rem;
+margin-top:3.5rem;
+opacity:50%;
+margin-bottom: 3rem;
+}
+.contents h1{
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+}
+.contents p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  opacity:50%;
+}
+.number {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+}
+.number p{
+  font-size: 3rem;
+  color: hsl(158, 36%, 37%);
+  font-family:"Fraunces", serif ;
+  opacity: 1;
+}
+.number span{
+  font-size: 1.6rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+  position: relative;
+  top:-0.4rem;
+  color:black;
+}
+.contents button{
+  width:77%;
+  margin-top: 3rem;
+  background-color: hsl(158, 36%, 37%);
+  height: 10%;
+  border-radius: 1rem;
+  color:white;
+  font-family:"Fraunces", serif ;
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 700;
+}
+.opacity{
+  opacity:50%;
+}
+.icon{
+  height:30px;
+  width:30px;
+  position: relative;
+  top:9px;
+  right: 19px;
+  padding: 0;
+}
+button:hover{
+  background-color:hsl(158, 69%, 16%);
+}
+@media (max-width:1488px){
+  .big-container{
+    display: flex;
+    width:70%;
+    height: auto;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 1.2rem;
+  }
+  img{
+    height:50%;
+    width:100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
+@media (max-width:752px){
+  .big-container{
+    width:93%;
+    height: auto;
+  }
+  .contents{
+    margin-left: 1rem;
+  }
+  .contents h1{
+    font-size: 2.7rem;
+  }
+  img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  h4,h1,p{
+    margin-bottom: 0.8rem;
+  }
+  .number{
+    margin-top: 1rem;
+  }
+  button{
+    margin-bottom: 2rem;
+  }
+}
+@media(max-width:687px){
+  .big-container{
+    width:97%;
+    height: auto;
+  }
+  .contents{
+    margin-left: 0rem;
+  }
+  .contents h1{
+    font-size: 2.3rem;
+  }
+  img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  h4,h1,p{
+    margin-bottom: 0rem;
+  }
+  .number{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  button{
+    margin-bottom: 1rem;
+    margin-top: 0;
+  
+  }
+  .number p{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  button{
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    
+  }
+}
