@@ -18,7 +18,7 @@ body{
 }
 .big-container{
   width:38%;
-  height: auto;
+  height: fit-content;
   max-width: 1100px;
   display: flex;
   flex-direction: row;
