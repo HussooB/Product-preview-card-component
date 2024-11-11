@@ -17,7 +17,7 @@ body{
   background-color:   hsl(30, 38%, 92%);
 }
 .big-container{
-  width:auto;
+  width:38%;
   height: auto;
   max-width: 1100px;
   display: flex;
