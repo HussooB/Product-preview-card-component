@@ -4,8 +4,8 @@
   box-sizing: border-box;
   margin:0px;
   padding:0px;
-  .attribution { font-size: 20px; text-align: center; margin-top: 2rem; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution { font-size: 25px; text-align: center; margin-top: 2rem; }
+    .attribution a { color: hsl(133, 78%, 35%);text-decoration: wavy; }
 }
 body{
   font-family: "Montserrat", serif;
